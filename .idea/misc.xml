@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_aboutus.xml" value="0.1" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_chatbot.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_consultants.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_contact1.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_cough.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_cough_exist.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_fever.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_feverexist.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_fevernoexist.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_forgot.xml" value="0.2" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_homescreen.xml" value="0.1" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_instanthealthcare.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_main.xml" value="0.24895833333333334" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_ninty_hundred.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_no_cough_exist.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_nuitrition.xml" value="0.2" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_onehundred.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_send_email.xml" value="0.144" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_skinmaintain.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_threehundred.xml" value="0.1814814814814815" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_uriniss.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_vaccine.xml" value="0.264" />
+        <entry key="..\:/Femme/app/src/main/res/layout/activity_vomiting.xml" value="0.2" />
+        <entry key="..\:/Femme/app/src/main/res/layout/chat_item.xml" value="0.2" />
+        <entry key="..\:/Femme/app/src/main/res/layout/signin.xml" value="0.12129629629629629" />
+        <entry key="..\:/Femme/app/src/main/res/layout/signup.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

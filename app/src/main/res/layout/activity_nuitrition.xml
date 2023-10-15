@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B5A492A8"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".nuitrition">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+
+        android:layout_marginTop="35dp"
+
+
+        android:text="0-6 months only breastfeeding"
+        android:textColor="#061EE6"
+        android:textSize="20sp"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="35dp"
+
+
+        android:text=" 6 months to 1 year"
+        android:textColor="#234704"
+        android:textSize="25sp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+
+        android:layout_marginTop="35dp"
+
+
+        android:text="0-4 Months:Breast milk or formula: Babies should be exclusively fed breast milk or formula for the first 4-6 months.
+Iron supplements: Around 4 months, iron supplements are often recommended, especially for breastfed babies as their iron stores begin to deplete."
+        android:textColor="#19191B"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+
+        android:layout_marginTop="35dp"
+
+
+        android:text="4-6 Months:
+
+Introduction of solids: Begin introducing solid foods around 4-6 months. Start with single-grain infant cereals, pureed fruits, and vegetables.
+Iron-rich foods: Incorporate iron-rich foods like infant cereals, pureed meats, and beans.
+Continue breast milk or formula: Continue to offer breast milk or formula as the primary source of nutrition."
+        android:textColor="#19191B"
+        android:textSize="20sp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+
+        android:layout_marginTop="35dp"
+        android:textColor="#19191B"
+
+
+        android:text="6-8 Months:
+
+More variety: Introduce a wider variety of pureed or mashed fruits and vegetables.
+Soft finger foods: Offer small, soft pieces of food that the baby can pick up and eat, such as well-cooked vegetables, small pieces of fruit, and soft cheese.
+Continue breast milk or formula: Maintain breast milk or formula feedings alongside solids."
+        android:textSize="20sp"
+
+
+        />
+
+
+
+
+</LinearLayout>

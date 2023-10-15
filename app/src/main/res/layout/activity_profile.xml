@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical"
+    android:background="#B55B226A"
+
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#4DBB7ECC">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+
+            android:fontFamily="@font/ananda"
+            android:text="Which segment you want to pick?"
+            android:textColor="#290207"
+            android:textSize="23sp"
+
+
+
+            />
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+
+                android:id="@+id/yoga"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="13dp"
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="60dp">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="135dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/healath" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Instant Health Care"
+                    android:textColor="#ED1B1A1A"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <!--                <LinearLayout-->
+            <!--                    android:id="@+id/helplinee"-->
+            <!--                    android:layout_width="160dp"-->
+            <!--                    android:layout_height="160dp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:background="@drawable/style"-->
+            <!--                    android:backgroundTint="#B3B1B1"-->
+            <!--                    android:elevation="60dp">-->
+
+            <RelativeLayout
+
+                android:id="@+id/view"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="27dp"
+
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="20dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="125dp"
+
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+
+                    android:paddingLeft="10dp"
+
+                    android:paddingTop="11sp"
+                    android:src="@drawable/nut" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Nutritions"
+                    android:textColor="#ED121111"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+
+                android:id="@+id/tip"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="13dp"
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="60dp">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="135dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/skin" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Skin Maintain"
+                    android:textColor="#ED171616"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <!--                <LinearLayout-->
+            <!--                    android:id="@+id/helplinee"-->
+            <!--                    android:layout_width="160dp"-->
+            <!--                    android:layout_height="160dp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:background="@drawable/style"-->
+            <!--                    android:backgroundTint="#B3B1B1"-->
+            <!--                    android:elevation="60dp">-->
+
+            <RelativeLayout
+
+                android:id="@+id/sirenn"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="27dp"
+
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="20dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="125dp"
+
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+
+                    android:paddingLeft="10dp"
+
+                    android:paddingTop="11sp"
+                    android:src="@drawable/baby" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Vaccine Information"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+
+                android:id="@+id/current"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="13dp"
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="60dp">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="135dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/remove" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Reports"
+                    android:textColor="#ED252424"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <!--                <LinearLayout-->
+            <!--                    android:id="@+id/helplinee"-->
+            <!--                    android:layout_width="160dp"-->
+            <!--                    android:layout_height="160dp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:background="@drawable/style"-->
+            <!--                    android:backgroundTint="#B3B1B1"-->
+            <!--                    android:elevation="60dp">-->
+
+            <RelativeLayout
+
+                android:id="@+id/help"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="27dp"
+
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="20dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="120dp"
+
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+
+                    android:paddingLeft="10dp"
+
+                    android:paddingTop="11sp"
+                    android:src="@drawable/chat" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Chatbot"
+                    android:textColor="#ED191818"
+                    android:textSize="13sp"
+
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+
+                android:id="@+id/contact"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="13dp"
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="60dp">
+
+                <ImageView
+                    android:layout_width="115dp"
+                    android:layout_height="135dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/card" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="140dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Consultants"
+                    android:textColor="#ED252424"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <!--                <LinearLayout-->
+            <!--                    android:id="@+id/helplinee"-->
+            <!--                    android:layout_width="160dp"-->
+            <!--                    android:layout_height="160dp"-->
+            <!--                    android:alpha="0.5"-->
+            <!--                    android:background="@drawable/style"-->
+            <!--                    android:backgroundTint="#B3B1B1"-->
+            <!--                    android:elevation="60dp">-->
+
+            <RelativeLayout
+
+                android:id="@+id/view_off"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="27dp"
+
+                android:alpha="0.5"
+                android:background="#D6BBE1"
+
+
+
+
+                android:elevation="20dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="80dp"
+
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+
+                    android:paddingLeft="10dp"
+
+                    android:paddingTop="11sp"
+                    android:src="@drawable/logout" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Logout"
+                    android:textColor="#ED191818"
+                    android:textSize="15sp"
+
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

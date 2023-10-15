@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B55B226A"
+
+    android:orientation="vertical"
+    tools:context=".instanthealthcare">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:src="@drawable/vectorr"
+        android:layout_marginRight="50dp"
+        android:paddingRight="70dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="5dp"
+
+
+        android:text="Choose the Porblem:"
+        android:textColor="#170601"
+        android:textSize="22sp"
+
+
+
+        />
+    <Button
+        android:id="@+id/skin_1"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Fever"
+        android:layout_marginLeft="115dp"
+        android:paddingLeft="20dp"
+
+        android:textStyle="bold"
+        android:paddingRight="22dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="16dp"
+
+        android:textSize="13sp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#C1C4DC"
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/skin_2"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Gastric"
+        android:layout_marginLeft="115dp"
+        android:paddingLeft="20dp"
+
+        android:textStyle="bold"
+        android:paddingRight="22dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="16dp"
+
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C1C4DC"
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/skin_3"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Vomiting"
+        android:layout_marginLeft="115dp"
+        android:paddingLeft="20dp"
+
+        android:textStyle="bold"
+        android:paddingRight="22dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="16dp"
+
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C1C4DC"
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/skin_4"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Dirahrea"
+        android:layout_marginLeft="115dp"
+        android:paddingLeft="20dp"
+
+        android:textStyle="bold"
+        android:paddingRight="22dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="16dp"
+
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#C1C4DC"
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

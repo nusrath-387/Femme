@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.femme">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Femme"
+        tools:targetApi="31">
+        <activity
+            android:name=".send_email"
+            android:exported="false" />
+        <activity
+            android:name=".contact1"
+            android:exported="false" />
+        <activity
+            android:name=".fevernoexist"
+            android:exported="false" />
+        <activity
+            android:name=".feverexist"
+            android:exported="false" />
+        <activity
+            android:name=".noCoughExist"
+            android:exported="false" />
+        <activity
+            android:name=".coughExist"
+            android:exported="false" />
+        <activity
+            android:name=".threehundred"
+            android:exported="false" />
+        <activity
+            android:name=".onehundred"
+            android:exported="false" />
+        <activity
+            android:name=".ninty_hundred"
+            android:exported="false" />
+        <activity
+            android:name=".uriniss"
+            android:exported="false" />
+        <activity
+            android:name=".vomiting"
+            android:exported="false" />
+        <activity
+            android:name=".cough"
+            android:exported="false" />
+        <activity
+            android:name=".fever"
+            android:exported="false" />
+        <activity
+            android:name=".logout"
+            android:exported="false" />
+        <activity
+            android:name=".consultants"
+            android:exported="false" />
+        <activity
+            android:name=".chatbot"
+            android:exported="false" />
+        <activity
+            android:name=".report"
+            android:exported="false" />
+        <activity
+            android:name=".vaccine"
+            android:exported="false" />
+        <activity
+            android:name=".skinmaintain"
+            android:exported="false" />
+        <activity
+            android:name=".nuitrition"
+            android:exported="false" />
+        <activity
+            android:name=".instanthealthcare"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".forgot"
+            android:exported="false" />
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".homescreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B55B226A"
+    android:orientation="vertical"
+    tools:context=".homescreen">
+
+    <ImageView
+
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/mom"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Welcome to CuddleCare"
+        android:layout_marginLeft="90dp"
+        android:textColor="#19010C"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/ananda"
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Signup"
+        android:layout_marginLeft="120dp"
+        android:paddingLeft="20dp"
+
+        android:textStyle="bold"
+        android:paddingRight="22dp"
+        android:paddingTop="13dp"
+        android:paddingBottom="16dp"
+
+
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D295E3"
+
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/login"
+
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Signin"
+        android:layout_marginLeft="120dp"
+        android:paddingRight="43dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#D295E3"
+        android:paddingLeft="40dp"
+        android:textColor="@color/black"
+
+        />
+    <Button
+        android:id="@+id/safe"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="About Us"
+        android:layout_marginLeft="120dp"
+        android:paddingRight="43dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#D295E3"
+        android:paddingLeft="40dp"
+        android:textColor="@color/black"
+
+        />
+
+</LinearLayout>

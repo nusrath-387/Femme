@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5BE9EC6"
+
+    android:orientation="vertical"
+    tools:context=".noCoughExist">
+    <ImageView
+
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/bag"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can try following medicine daily twice"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#19020C"
+
+
+        android:textSize="20sp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="500dp"
+
+
+
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/fever"
+
+            />
+
+        <ImageView
+
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="55dp"
+            android:src="@drawable/fever3"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

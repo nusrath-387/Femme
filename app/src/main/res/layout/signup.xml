@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#615B226A"
+
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/signup"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="21"
+        android:textSize="15sp"
+
+
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        android:padding="20dp"
+        android:hint="Enter your Name"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/email"
+android:padding="20dp"
+        android:hint="Enter your Email"
+        android:ems="21"
+        android:textSize="15sp"
+
+
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:padding="20dp"
+        android:ems="21"
+        android:textSize="15sp"
+
+
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+
+        android:hint="Enter your passWord"
+
+
+        />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:textColorHint="@color/black"
+        android:layout_gravity="left"
+        android:hint="Show password"
+        />
+
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:text="Sign UP"
+        android:layout_marginLeft="120dp"
+        android:paddingRight="43dp"
+
+        android:textStyle="bold"
+
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#865C91"
+        android:paddingLeft="40dp"
+        android:textColor="@color/black"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupText"
+        android:text="Already have reagistered?Sign in"
+        android:layout_marginLeft="75dp"
+        android:textColor="#1226A3"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
